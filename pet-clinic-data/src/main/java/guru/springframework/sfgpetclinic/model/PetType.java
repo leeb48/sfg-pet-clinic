@@ -19,4 +19,8 @@ public class PetType extends BaseEntity {
     @Column(name = "type")
     private String name;
 
+    @Override
+    public String toString() {
+        return this.name;
+    }
 }
